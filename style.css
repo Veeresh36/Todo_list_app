@@ -161,3 +161,16 @@ ul li span:hover{
         border-radius: 40px;
     }
 }
+
+@media(max-width: 300px){
+    .row button{
+        border: none;
+        outline: none;
+        padding: 16px 20px;
+        background-color: #ff5945;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+}
