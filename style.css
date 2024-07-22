@@ -162,7 +162,16 @@ ul li span:hover{
     }
 }
 
-@media(max-width: 300px){
+@media(max-width: 481px){
+
+    .row input{
+        flex: 1;
+        width: 100%;
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 10px;
+    }
     .row button{
         border: none;
         outline: none;
